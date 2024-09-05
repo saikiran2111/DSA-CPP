@@ -27,6 +27,11 @@ int main(){
     v4.push_back({2,4});
     v4.push_back({6,8});
 
+    for(auto i=v4.begin();i!=v4.end();++i){
+        cout<<i->first<<" ";    //printing 1st elements of all pairs
+        cout<<i->second<<" ";  //printing 2nd elements of all pairs 
+    }
+
     cout<<v4[0].first<<" "<<v4[0].second<<endl;
 
     //Iterator
