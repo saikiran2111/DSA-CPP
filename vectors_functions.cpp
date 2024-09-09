@@ -13,7 +13,7 @@ int main(){
     v1.erase(v1.begin()+2);  //2nd index element will be deleted
 
     for(vector<int>::iterator i=v1.begin() ;i!=v1.end();i++ ){
-        cout<<*i<<" ";
+        cout<<"Index "<<*i<<" ";
     }
     cout<<endl;
 
